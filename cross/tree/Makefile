@@ -2,7 +2,9 @@ PKG_NAME = tree
 PKG_VERS = 2.0.2
 PKG_EXT = tgz
 PKG_DIST_NAME = $(PKG_NAME)-$(PKG_VERS).$(PKG_EXT)
-PKG_DIST_SITE = http://mama.indstate.edu/users/ice/tree/src
+# No answer from mama.indstate.edu
+#PKG_DIST_SITE = http://mama.indstate.edu/users/ice/tree/src
+PKG_DIST_SITE = https://ftp.osuosl.org/pub/blfs/conglomeration/tree
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
 DEPENDS =
