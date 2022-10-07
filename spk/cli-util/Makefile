@@ -1,0 +1,23 @@
+SPK_NAME = cli-util
+SPK_VERS = 0.1
+SPK_REV = 1
+SPK_ICON = src/icon.png
+
+DEPENDS = cross/screen cross/links cross/less cross/tree cross/file cross/iconv
+
+MAINTAINER = ish-west
+DESCRIPTION = "Some command line utilities: screen, less, file, tree, links, iconv"
+DISPLAY_NAME = CLI Utilities
+STARTABLE = no
+
+HOMEPAGE = https://github.com/SynoCommunity/spksrc/wiki
+LICENSE  = Each tool is licensed under it\'s respective license.
+
+SPK_COMMANDS = bin/screen
+SPK_COMMANDS += bin/links
+SPK_COMMANDS += bin/less bin/lessecho bin/lesskey
+SPK_COMMANDS += bin/tree
+SPK_COMMANDS += bin/file
+SPK_COMMANDS += bin/iconv
+
+include ../../mk/spksrc.spk.mk
